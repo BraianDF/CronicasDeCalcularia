@@ -428,7 +428,7 @@ int perguntas (int x, int y) {
 	while (resp == 0) {
 		printf ("\n Evento Obtido: %s.\n\n %s\n\n Pergunta: %s\n\n Resposta: ",carta[i].tipo, carta[i].dica, carta[i].pergunta);
 		scanf ("%d", &resp);
-		if ((resp != 1)and(resp != 2)and(resp != 3)and(resp!= 4)) {
+		if ((resp != 1) && (resp != 2) && (resp != 3) && (resp!= 4)) {
 			resp = 0;
 			system ("cls");	
 			}
